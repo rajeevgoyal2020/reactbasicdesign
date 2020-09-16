@@ -1,0 +1,148 @@
+body
+{
+	margin:0;
+	font-family: verdana;
+}
+h1
+{
+	text-transform: capitalize;
+}
+*
+{
+	font-weight: normal;
+}
+.header
+{
+	padding:10px;
+	background: black;
+	color:white;
+}
+.header span
+{
+	padding:10px;
+}
+.about
+{
+	padding:5%;
+	background: silver;
+}
+input,button
+{
+	padding:10px;
+	border:0;
+}
+.about button
+{
+	background: black;
+	color:white;
+}
+
+.contact
+{
+	background: black;
+	color:white;
+	padding:5%;
+}
+
+.contact input
+{
+	width:100%;
+	margin-bottom: 1%;
+}
+.contact button
+{
+	background: tomato;
+	color:white;
+}
+
+.team
+{
+	padding:5%;
+	background: grey;
+	color:white;
+	text-align: center;
+}
+.team .flex
+{
+	display: flex;
+}
+
+.team .flex .item
+{
+	width:21%;
+	padding:1%;
+	margin:1%;
+	border-top: 10px solid black;
+	box-shadow: 0 10px 10px black;
+	background: white;
+	color:black;
+}
+.team .flex .item .image
+{
+	padding:25%;
+	background: black;
+	color:white;
+}
+.team .flex .item button
+{
+	width:100%;
+	background: black;
+	color:white;
+}
+
+.newsletter
+{
+	padding: 5%;
+	background: black;
+	color:white;
+}
+.newsletter button
+{
+	background: slateblue;
+	color:white;
+}
+
+.price
+{
+	background:silver;
+	color:white;
+	padding:5%;
+	text-align: center;
+}
+.price .flex
+{
+	display: flex;
+}
+.price .flex .item
+{
+	width:30%;
+	margin:3.3%;
+	box-shadow:0 10px 10px black;
+	background: white;
+}
+.price .flex .item .h
+{
+	padding:5%;
+	font-size: 200%;
+	color:white;
+	background: black;
+}
+.price .flex .item .b
+{
+	line-height: 50px;
+	color:black;
+}
+.price .flex .item .b big
+{
+	font-family: impact;
+	font-size: 200%;
+}
+.price .flex .item .f
+{
+	padding:5%;
+}
+.price .flex .item .f button
+{
+	background: black;
+	color:white;
+}
